@@ -1,0 +1,65 @@
+{
+  "name": "natural gas prices",
+  "resources": [
+    {
+      "path": "days_price.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Price",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "weeks_price.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Price",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "months_price.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Price",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "years_price.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date"
+          },
+          {
+            "name": "Price",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
